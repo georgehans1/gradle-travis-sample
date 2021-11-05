@@ -1,10 +1,10 @@
 package io.turntabl;
 
-public class Corporate extends Client{
+public class CorporateClient extends Client{
     private AccountManager manager;
 
 
-    public Corporate(String name, int ID, Level level,AccountManager manager) {
+    public CorporateClient(String name, int ID, Level level, AccountManager manager) {
         super(name, ID, level);
         this.manager = manager;
     }

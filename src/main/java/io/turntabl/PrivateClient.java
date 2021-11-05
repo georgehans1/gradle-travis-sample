@@ -1,8 +1,8 @@
 package io.turntabl;
 
-public class Private extends Client{
+public class PrivateClient extends Client{
 
-    public Private(String name, int ID, Level level) {
+    public PrivateClient(String name, int ID, Level level) {
         super(name, ID, level);
     }
 
